@@ -2,12 +2,12 @@
 const WHATSAPP_NUMBER = '33689237379';
 // DEMO ONLY: names, prices, sizes, descriptions and photos are fictional.
 const products = [
-{name:'Robe Alba',price:149,sizes:'S · M · L',desc:'Une silhouette aérienne pour les journées baignées de soleil.',photo:'photo-1515372039744-b8f02a3ae446'},
-{name:'Robe Calista',price:179,sizes:'XS · S · M · L',desc:'Une allure romantique et libre, inspirée des étés méditerranéens.',photo:'photo-1539008835657-9e8e9680c956'},
-{name:'Robe Naya',price:129,sizes:'S · M · L',desc:'La simplicité d’une coupe fluide, pensée pour les beaux jours.',photo:'photo-1483985988355-763728e1935b'},
-{name:'Robe Soline',price:189,sizes:'XS · S · M',desc:'Une pièce au charme intemporel, pour les longues soirées d’été.',photo:'photo-1496747611176-843222e1e57c'},
-{name:'Robe Dalia',price:159,sizes:'S · M · L · XL',desc:'Légèreté, douceur et mouvement : l’esprit des vacances.',photo:'photo-1509631179647-0177331693ae'},
-{name:'Robe Inès',price:139,sizes:'XS · S · M · L',desc:'Une silhouette lumineuse à porter du matin jusqu’au soir.',photo:'photo-1525507119028-ed4c629a60a3'}
+{name:'Robe Bali Fleurie',price:149,sizes:'S · M · L',desc:'Robe longue fluide aux inspirations florales multicolores, idéale pour l’été.',photo:'photo-1515372039744-b8f02a3ae446'},
+{name:'Robe Java Soleil',price:179,sizes:'XS · S · M · L',desc:'Coupe légère et imprimés tropicaux inspirés de Bali et de la Méditerranée.',photo:'photo-1539008835657-9e8e9680c956'},
+{name:'Robe Lombok Tropicale',price:129,sizes:'S · M · L',desc:'Robe d’été aux couleurs vives, esprit bohème et vacances au soleil.',photo:'photo-1483985988355-763728e1935b'},
+{name:'Robe Ubud Corail',price:189,sizes:'XS · S · M',desc:'Longue robe colorée aux motifs fleuris, parfaite pour les soirées estivales.',photo:'photo-1496747611176-843222e1e57c'},
+{name:'Robe Flores Multicolore',price:159,sizes:'S · M · L · XL',desc:'Robe ample à imprimés multicolores et ambiance bord de mer.',photo:'photo-1509631179647-0177331693ae'},
+{name:'Robe Sumba Évasion',price:139,sizes:'XS · S · M · L',desc:'Robe estivale à motifs tropicaux, fraîche et lumineuse.',photo:'photo-1525507119028-ed4c629a60a3'}
 ];
 const photo=(id,w=800)=>`https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=85`;
 const grid=document.querySelector('#product-grid');
