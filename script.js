@@ -1,5 +1,5 @@
 // Replace with your international WhatsApp number, digits only (e.g. 33612345678).
-const WHATSAPP_NUMBER = '';
+const WHATSAPP_NUMBER = '33689237379';
 // DEMO ONLY: names, prices, sizes, descriptions and photos are fictional.
 const products = [
 {name:'Robe Alba',price:149,sizes:'S · M · L',desc:'Une silhouette aérienne pour les journées baignées de soleil.',photo:'photo-1515372039744-b8f02a3ae446'},
