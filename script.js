@@ -2,12 +2,12 @@
 const WHATSAPP_NUMBER = '33689237379';
 // DEMO ONLY: names, prices, sizes, descriptions and photos are fictional.
 const products = [
-{name:'Robe Bali Fleurie',price:149,sizes:'S · M · L',desc:'Robe longue fluide aux inspirations florales multicolores, idéale pour l’été.',photo:'photo-1515372039744-b8f02a3ae446'},
-{name:'Robe Java Soleil',price:179,sizes:'XS · S · M · L',desc:'Coupe légère et imprimés tropicaux inspirés de Bali et de la Méditerranée.',photo:'photo-1539008835657-9e8e9680c956'},
-{name:'Robe Lombok Tropicale',price:129,sizes:'S · M · L',desc:'Robe d’été aux couleurs vives, esprit bohème et vacances au soleil.',photo:'photo-1483985988355-763728e1935b'},
-{name:'Robe Ubud Corail',price:189,sizes:'XS · S · M',desc:'Longue robe colorée aux motifs fleuris, parfaite pour les soirées estivales.',photo:'photo-1496747611176-843222e1e57c'},
-{name:'Robe Flores Multicolore',price:159,sizes:'S · M · L · XL',desc:'Robe ample à imprimés multicolores et ambiance bord de mer.',photo:'photo-1509631179647-0177331693ae'},
-{name:'Robe Sumba Évasion',price:139,sizes:'XS · S · M · L',desc:'Robe estivale à motifs tropicaux, fraîche et lumineuse.',photo:'photo-1525507119028-ed4c629a60a3'}
+{name:'Robe Bali Fleurie',price:149,sizes:'S · M · L',desc:'Robe longue fluide aux inspirations florales multicolores, idéale pour l’été.',photo:'photo-1578406651829-1a8a59be937d'},
+{name:'Robe Java Soleil',price:179,sizes:'XS · S · M · L',desc:'Coupe légère et imprimés tropicaux inspirés de Bali et de la Méditerranée.',photo:'photo-1595570981046-dbbb4d2afe99'},
+{name:'Robe Lombok Tropicale',price:129,sizes:'S · M · L',desc:'Robe d’été aux couleurs vives, esprit bohème et vacances au soleil.',photo:'photo-1779315548428-2bdf55bce85b'},
+{name:'Robe Ubud Corail',price:189,sizes:'XS · S · M',desc:'Longue robe colorée aux motifs fleuris, parfaite pour les soirées estivales.',photo:'photo-1540325918245-d616d915e7e6'},
+{name:'Robe Flores Multicolore',price:159,sizes:'S · M · L · XL',desc:'Robe ample à imprimés multicolores et ambiance bord de mer.',photo:'photo-1560607812-923a837d906c'},
+{name:'Robe Sumba Évasion',price:139,sizes:'XS · S · M · L',desc:'Robe estivale à motifs tropicaux, fraîche et lumineuse.',photo:'photo-1759992878336-a5dd342ea245'}
 ];
 const photo=(id,w=800)=>`https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=85`;
 const grid=document.querySelector('#product-grid');
